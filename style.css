@@ -1,0 +1,41 @@
+.Survey_form{
+    height: auto;
+    padding: 7px;
+    border: 2px solid black;
+    margin: 4px;
+    background-color: rgb(133, 167, 167);
+    overflow: auto;
+}
+
+.ratings{
+    position: relative;
+    display: flexbox;
+    justify-content: space-between;
+}
+.Services{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: space-around;
+    text-decoration: underline;
+    background-color: rgb(192, 209, 209);
+}
+
+.responses{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: space-around;
+    text-decoration: underline;
+    background-color: rgb(213, 219, 219);
+}
+
+.Comments{
+    min-width: 80%;
+    max-width: 80%;
+    min-height: 70px;
+    max-height: 70px;
+}
+
+.Submit{
+    position: relative;
+    left:90%;
+}

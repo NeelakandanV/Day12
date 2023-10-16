@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form action="" Class="Survey_form" for="Survey"  target="_self">
+        <label for="">Name</label><br>
+        <input type="text" placeholder="First name" minlength="2" required>
+        <input placeholder="Last name" required><br>
+        <label for="">Email</label><br>
+        <input type="email" placeholder="Email id" required><br>
+        <label for="">Contact no</label><br>
+        <input type="number" placeholder="mobile no" required><br>
+        <label for="">Your Experience</label><br>
+        <span> <sub>Overall,how would you rate your experience with us?(from 0 to 10)</sub></span><br>
+        <input type="range" min="0" max="10" required ><br>
+        <div class="ratings">
+        <label><h4>How satisfied are you with.</h4></label>
+        <div class="Services"> 
+
+        <div class="Particulars">
+            <span>
+                Particulars
+            </span>
+            <div>
+                <label>Purchase</label>
+            </div>
+            <div>
+                <label>Customer Service</label>
+            </div>
+            <div>
+                <label>Company Overall</label>
+            </div>
+            
+        </div>
+
+        <div class="Very Unsatisfied">
+            <span>
+                Very Unsatisfied
+            </span>
+            <div>
+                <input type="radio" name="Purchase">
+            </div>
+            <div>
+                <input type="radio" name="Customer Service">
+            </div>
+            <div>
+                <input type="radio" name="Company Overall">
+            </div>
+        </div>
+
+        <div class="Unsatisfied">
+            <span>
+                Unsatisfied
+            </span>
+            <div>
+                <input type="radio" name="Purchase">
+            </div>
+            <div>
+                <input type="radio" name="Customer Service">
+            </div>
+            <div>
+                <input type="radio" name="Company Overall">
+            </div>
+        </div>
+
+        <div class="Normal">
+            <span>
+                Normal
+            </span>
+            <div>
+                <input type="radio" name="Purchase">
+            </div>
+            <div>
+                <input type="radio" name="Customer Service">
+            </div>
+            <div>
+                <input type="radio" name="Company Overall">
+            </div>
+        </div>
+
+        <div class="Satisfied">
+            <span>
+                Satisfied
+            </span>
+            <div>
+                <input type="radio" name="Purchase">
+            </div>
+            <div>
+                <input type="radio" name="Customer Service">
+            </div>
+            <div>
+                <input type="radio" name="Company Overall">
+            </div>
+        </div>
+
+        <div class="Very Satisfied">
+            <span>
+                Very Satisfied
+            </span>
+            <div>
+                <input type="radio" name="Purchase">
+            </div>
+            <div>
+                <input type="radio" name="Customer Service">
+            </div>
+            <div>
+                <input type="radio" name="Company Overall">
+            </div>
+        </div>
+    </div>
+
+
+        <label><h4>How likely are you to.</h4></label>
+        <div class="responses"> 
+
+        <div class="Particulars">
+            <span>
+                Particulars
+            </span>
+            <div>
+                <label>Buy from us again</label>
+            </div>
+            <div>
+                <label>Recommend our product to others</label>
+            </div>
+            <div>
+                <label>Recommend our company to others</label>
+            </div>
+            
+        </div>
+
+        <div class="Very unlikely">
+            <span>
+                Very unlikely
+            </span>
+            <div>
+                <input type="radio" name="Buy">
+            </div>
+            <div>
+                <input type="radio" name="Product">
+            </div>
+            <div>
+                <input type="radio" name="Company">
+            </div>
+        </div>
+                
+        <div class="Unlikey">
+            <span>
+                Unlikely
+            </span>
+            <div>
+                <input type="radio" name="Buy">
+            </div>
+            <div>
+                <input type="radio" name="Product">
+            </div>
+            <div>
+                <input type="radio" name="Company">
+            </div>
+        </div>
+
+        <div class="Moderate">
+            <span>
+                Moderate
+            </span>
+            <div>
+                <input type="radio" name="Buy">
+            </div>
+            <div>
+                <input type="radio" name="Product">
+            </div>
+            <div>
+                <input type="radio" name="Company">
+            </div>
+        </div>
+
+        <div class="Likely">
+            <span>
+                Likely
+            </span>
+            <div>
+                <input type="radio" name="Buy">
+            </div>
+            <div>
+                <input type="radio" name="Product">
+            </div>
+            <div>
+                <input type="radio" name="Company">
+            </div>
+        </div>
+
+
+        <div class="Very Likely">
+            <span>
+                Very Likely
+            </span>
+            <div>
+                <input type="radio" name="Buy">
+            </div>
+            <div>
+                <input type="radio" name="Product">
+            </div>
+            <div>
+                <input type="radio" name="Company">
+            </div>
+        </div>
+        </div>
+        </div><br>
+
+        <label>Additional comments or suggestions</label><br>
+        <textarea class="Comments" required></textarea><br>
+
+        <button type="submit" class="Submit">submit</button>
+    </form>
+
+      
+</body>
+</html>
